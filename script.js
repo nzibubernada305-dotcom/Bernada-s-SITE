@@ -97,3 +97,10 @@ function makePixels(nombreColonnes, nombreLignes) {
     i = i + 1;
   }
 }
+
+
+document.querySelectorAll('.card.hidden').forEach((card) => {
+  card.addEventListener('click', () => {
+    card.classList.remove('hidden');
+  });
+});
