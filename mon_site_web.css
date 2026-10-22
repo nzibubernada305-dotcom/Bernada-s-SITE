@@ -155,9 +155,11 @@ header, h1 {
     border-radius: 4px;
 }
 
-.conteneur{
-    display:flex;
-    flex-direction:row;
+.conteneur {
+  display: flex;
+  flex-direction: row;
+}
 
-    
+.hidden {
+  display: none;
 }
