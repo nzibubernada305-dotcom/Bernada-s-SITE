@@ -98,9 +98,10 @@ function makePixels(nombreColonnes, nombreLignes) {
   }
 }
 
-
-document.querySelectorAll('.card.hidden').forEach((card) => {
-  card.addEventListener('click', () => {
-    card.classList.remove('hidden');
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.card.hidden').forEach((card) => {
+    card.addEventListener('click', () => {
+      card.classList.remove('hidden');
+    });
   });
 });
