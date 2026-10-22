@@ -1,9 +1,9 @@
-/* 1. Classe pour cacher les éléments */
+
 .hidden {
     display: none !important;
 }
 
-/* 2. Style général de la page */
+
 body {
     font-family: Arial, sans-serif;
     padding: 10px;
@@ -31,17 +31,17 @@ header, h1 {
     border-radius: 12px;
 }
 
-/* C'est ici que la magie de makePixels se produit ! */
+/* makePixels  */
 .screen {
     width: 220px;
     height: 220px;
     background: #101802;
-    display: grid; /* Indispensable pour la grille de pixels */
+    display: grid; /* la grille de pixels */
     margin: 0 auto;
     border: 3px solid #4A6E07;
 }
 
-/* Le style de chaque petit carré créé par le JavaScript */
+/* chaque petit carré créé par le JavaScript */
 .pixel {
     background: #8BC34A;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -153,4 +153,11 @@ header, h1 {
     display: block;
     margin-top: 8px;
     border-radius: 4px;
+}
+
+.conteneur{
+    display:flex;
+    flex-direction:row;
+
+    
 }
