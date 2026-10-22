@@ -160,6 +160,13 @@ header, h1 {
   flex-direction: row;
 }
 
+.card {
+  min-width: 180px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+}
+
 .hidden {
   display: none;
 }
